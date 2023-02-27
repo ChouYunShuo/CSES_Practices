@@ -1,4 +1,4 @@
-# Single cell HiC Data Visualization and Analysis Tool
+# CSES Practices
 
 A coding project for CSES Problem set in C++
 
