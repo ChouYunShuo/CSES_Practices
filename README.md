@@ -30,3 +30,8 @@ A coding project for CSES Problem set in C++
 
 ### 13.Gray Code
 
+### 14.Tower of Hanoi
+Recursion:
+Move the top n-1 disks from the left stack to the middle stack using the right stack as an auxiliary.
+Move the largest disk from the left stack to the right stack.
+Move the n-1 disks from the middle stack to the right stack using the left stack as an auxiliary.
