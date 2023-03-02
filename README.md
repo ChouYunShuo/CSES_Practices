@@ -41,3 +41,9 @@ Recursion:
 Recursion:
 - Recursive construct all strings with length (n-1)
 - add current char in the front, and use a unordered_set to avoid duplication
+
+### 16.Apple Division
+Recursion:
+
+- Find all subset sum
+- use bit maniputation or backtrack to find the subsets
