@@ -47,3 +47,9 @@ Recursion:
 
 - Find all subset sum
 - use bit maniputation or backtrack to find the subsets
+
+### 17.Chessboard and Queens
+Backtrack
+
+- Classic backtrack problem
+- Don't make mistakes on checking if 2 queens collide (need abs)
