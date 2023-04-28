@@ -62,3 +62,15 @@ Backtrack
 - Use global array is faster than parsing vector as params in recursion
 - prune the tree
 - use an additional array to store current direction(input)
+
+
+## Sort and Search Problems
+
+### 1. Distinct number
+
+- sort with one pointer scan
+
+
+### 3. Ferris Wheel
+
+- sort with two pointer scan
