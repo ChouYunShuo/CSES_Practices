@@ -53,3 +53,12 @@ Backtrack
 
 - Classic backtrack problem
 - Don't make mistakes on checking if 2 queens collide (need abs)
+
+### 18.Digit Queries
+
+
+### 19. Grid Paths
+
+- Use global array is faster than parsing vector as params in recursion
+- prune the tree
+- use an additional array to store current direction(input)
