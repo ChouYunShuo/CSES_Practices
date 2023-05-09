@@ -96,3 +96,29 @@ Backtrack
 ### 13. Playlist
 
 - use a map to keep track of current char's previous index. Maintain a pointer j, that is the current start of the window. j = max(j, set[arr[i]])
+
+### 15. Traffic Light
+
+- use a multiset and set, the set keeps all the current traffic light locations and the multiset keeps all the current passage without traffic lights(may have multiple with same lengths). For each iteration, insert the current traffic light and update the passage lengths, should remove one and add two new. Print the longest one. Use std::prev, std::next. 
+
+### 17. 
+
+### 19. Nested range count
+
+### 21. Factory Machines
+
+- binary search, with lo=0, hi=1e18, s+=min(mid/arr[i], (ll)1e9); need to check if overflow
+
+### 23. Reading Books
+
+- The first person read the longest time book, check if 2*longest>sum.
+
+### 25. Sum of Four Values
+
+- Save all the pairs sum(n choose two), and then loop over all i,j pairs and check if target-arr[i]-arr[j] exists
+
+### 27. Subarray Sums 1
+
+-Prefix sum. Use a set to see if target - current prefix exists in the set.
+
+
