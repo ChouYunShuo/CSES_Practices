@@ -121,4 +121,6 @@ Backtrack
 
 -Prefix sum. Use a set to see if target - current prefix exists in the set.
 
+### 29. Subarray Divisibility
 
+-Prefix sum. store all prefix sum that is i mod N, and (n chooses 2) for all pairs in i. If two prefix sum has the same mod, then that subarray is dividable by n.
