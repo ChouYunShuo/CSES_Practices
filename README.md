@@ -124,3 +124,7 @@ Backtrack
 ### 29. Subarray Divisibility
 
 -Prefix sum. store all prefix sum that is i mod N, and (n chooses 2) for all pairs in i. If two prefix sum has the same mod, then that subarray is dividable by n.
+
+### 30. Array division
+
+- Binary search, with lo=0, hi=2e14. the mid value is current maximum value of the subarray, check if the array can be successfully divided using under this max value. Two conditions: 1. all array values smaller or equal to mid and 2. need grp less or equal to k to divide all numbers.
