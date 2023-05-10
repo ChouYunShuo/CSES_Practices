@@ -137,3 +137,10 @@ Backtrack
 ### 35. Maximum Subarray Sum 2
 
 - Use a prefix array with a multiset, multiset keeps all prefixes within [a,b]. iterate over max(ans, prefix[i]-*ms.begin()). 
+
+## Dynamic Programming
+
+### 1. Dice Combinations
+
+1D DP, don't forget to use long long and use mode 1e9+7
+
