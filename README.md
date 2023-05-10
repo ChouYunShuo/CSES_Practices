@@ -133,3 +133,7 @@ Backtrack
 ### 33. Sliding Cost
 
 - Use two multiset to maintain the median of a sliding window, so the insert, delete operation can be done in O(k). Calculate the sliding window cost= mid*lo.size()-lo_sum+hi_sum-mid*hi.size(). Need to discuss even or odd.
+
+### 35. Maximum Subarray Sum 2
+
+- Use a prefix array with a multiset, multiset keeps all prefixes within [a,b]. iterate over max(ans, prefix[i]-*ms.begin()). 
