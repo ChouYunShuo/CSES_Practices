@@ -125,6 +125,11 @@ Backtrack
 
 -Prefix sum. store all prefix sum that is i mod N, and (n chooses 2) for all pairs in i. If two prefix sum has the same mod, then that subarray is dividable by n.
 
-### 30. Array division
+### 31. Array division
 
 - Binary search, with lo=0, hi=2e14. the mid value is current maximum value of the subarray, check if the array can be successfully divided using under this max value. Two conditions: 1. all array values smaller or equal to mid and 2. need grp less or equal to k to divide all numbers.
+
+
+### 33. Sliding Cost
+
+- Use two multiset to maintain the median of a sliding window, so the insert, delete operation can be done in O(k). Calculate the sliding window cost= mid*lo.size()-lo_sum+hi_sum-mid*hi.size(). Need to discuss even or odd.
