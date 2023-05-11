@@ -119,11 +119,11 @@ Backtrack
 
 ### 27. Subarray Sums 1
 
--Prefix sum. Use a set to see if target - current prefix exists in the set.
+- Prefix sum. Use a set to see if target - current prefix exists in the set.
 
 ### 29. Subarray Divisibility
 
--Prefix sum. store all prefix sum that is i mod N, and (n chooses 2) for all pairs in i. If two prefix sum has the same mod, then that subarray is dividable by n.
+- Prefix sum. store all prefix sum that is i mod N, and (n chooses 2) for all pairs in i. If two prefix sum has the same mod, then that subarray is dividable by n.
 
 ### 31. Array division
 
@@ -142,9 +142,13 @@ Backtrack
 
 ### 1. Dice Combinations
 
-1D DP, don't forget to use long long and use mode 1e9+7
+- 1D DP, don't forget to use long long and use mode 1e9+7
 
 
 ### 3. Coin Combinations I
 
-simple 1D DP. DP array store combinations for current value.
+- simple 1D DP. DP array store combinations for current value.
+
+### 5. Removing Digits
+
+- simple 1D DP, DP array store minimum steps for current value. The subproblems are:  dp[i] = min(dp[i], dp[i-cur%10]);
