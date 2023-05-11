@@ -144,3 +144,7 @@ Backtrack
 
 1D DP, don't forget to use long long and use mode 1e9+7
 
+
+### 3. Coin Combinations I
+
+simple 1D DP. DP array store combinations for current value.
