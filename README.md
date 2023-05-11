@@ -151,4 +151,10 @@ Backtrack
 
 ### 5. Removing Digits
 
-- simple 1D DP, DP array store minimum steps for current value. The subproblems are:  dp[i] = min(dp[i], dp[i-cur%10]);
+- simple 1D DP, DP array store minimum steps for current value. The subproblems are:  dp[i] = min(dp[i], dp[i-cur%10])
+
+### 7. Book Shop
+
+- 0/1 Knapsack problem, keep a dp[n][w] array, The decision is whether to use current book or not given the current budget. Can optimize space with only O(2*X), use two 1D array instead
+
+
