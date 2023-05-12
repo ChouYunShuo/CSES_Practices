@@ -157,4 +157,6 @@ Backtrack
 
 - 0/1 Knapsack problem, keep a dp[n][w] array, The decision is whether to use current book or not given the current budget. Can optimize space with only O(2*X), use two 1D array instead
 
+### 9. Counting Towers
 
+- 2d DP, dp[i][0] means current height i with head split, and dp[i][1] means current height i with head merged.
