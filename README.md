@@ -160,3 +160,7 @@ Backtrack
 ### 9. Counting Towers
 
 - 2d DP, dp[i][0] means current height i with head split, and dp[i][1] means current height i with head merged.
+
+### 11. Rectangle Cutting 
+
+- 2d DP, every cell store # of Cutting for rect(i,j), then we loop over all posibilities of cutting pairs and find the smallest one. Cannot use greedy! Consider the case 9x8. If greedy, we find 8*8 first, need 9 cuts in total. The solution should be cutting first a 5*8 and 4*8, then we only need 6 cuts.
