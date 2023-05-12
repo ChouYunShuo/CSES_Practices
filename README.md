@@ -164,3 +164,7 @@ Backtrack
 ### 11. Rectangle Cutting 
 
 - 2d DP, every cell store # of Cutting for rect(i,j), then we loop over all posibilities of cutting pairs and find the smallest one. Cannot use greedy! Consider the case 9x8. If greedy, we find 8*8 first, need 9 cuts in total. The solution should be cutting first a 5*8 and 4*8, then we only need 6 cuts.
+
+### 13. Removal Game
+
+- 2d DP, every cell stores the maximum difference between score_1 - score_2 in range of (i,j). Player 1 can pick the ith or jth in this turn, but then it is player 2's turn, so dp[i+1][j] becomes -dp[i+1][j]!!
