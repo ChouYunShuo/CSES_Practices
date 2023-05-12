@@ -168,3 +168,7 @@ Backtrack
 ### 13. Removal Game
 
 - 2d DP, every cell stores the maximum difference between score_1 - score_2 in range of (i,j). Player 1 can pick the ith or jth in this turn, but then it is player 2's turn, so dp[i+1][j] becomes -dp[i+1][j]!!
+
+### 15. Increasing Subsequence
+
+- 1d DP, every cell store the last element(smallest) of the current Subsequence length, ex: dp[1] stores the smallest element when Subsequence length=1. Then binary search every arr[i]'s location.
