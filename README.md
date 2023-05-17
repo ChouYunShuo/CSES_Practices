@@ -176,3 +176,9 @@ Backtrack
 ### 17. Elevator counts
 
 - Pair DP array, each cell store for {rides, last smallest left value} current subset(1 << N in total), for every subset, iterate over S/i(bit manipulation), and pick the smallest ride, left element.
+
+## Graph :rocket:
+
+### 1. Counting rooms
+
+- basic dfs, count how many time dfs is called(first time)
