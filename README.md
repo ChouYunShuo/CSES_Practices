@@ -182,3 +182,7 @@ Backtrack
 ### 1. Counting rooms
 
 - basic dfs, count how many time dfs is called(first time)
+
+### 3. Building roads
+
+- basic dfs, record all connected components and pick one node from each cc to form road.
