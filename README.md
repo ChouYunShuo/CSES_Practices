@@ -190,3 +190,7 @@ Backtrack
 ### 5. Building teams
 
 - bfs, bipartite graph coloring. 
+
+### 7. Monsters
+
+-bfs with multiple starts(start with all monsters), and change new cell to 'M' or 'A', use a 2d array to backtrack the path.
