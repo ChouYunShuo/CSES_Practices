@@ -194,3 +194,7 @@ Backtrack
 ### 7. Monsters
 
 -bfs with multiple starts(start with all monsters), and change new cell to 'M' or 'A', use a 2d array to backtrack the path.
+
+### 9. Shortest Route 2
+
+Floyd-Warshall. Relax each (i,j) node pair with k(from 1-n);
