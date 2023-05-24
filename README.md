@@ -193,12 +193,16 @@ Backtrack
 
 ### 7. Monsters
 
--bfs with multiple starts(start with all monsters), and change new cell to 'M' or 'A', use a 2d array to backtrack the path.
+- bfs with multiple starts(start with all monsters), and change new cell to 'M' or 'A', use a 2d array to backtrack the path.
 
 ### 9. Shortest Route 2
 
-Floyd-Warshall. Relax each (i,j) node pair with k(from 1-n);
+- Floyd-Warshall. Relax each (i,j) node pair with k(from 1-n);
 
 ### 11. Flight Discount
 
-Double Dijkstra from start and end(reverse), then iterate over all internal nodes to find min(ans, md1[i]+(aj.second/2)+md2[aj.first]);
+- Double Dijkstra from start and end(reverse), then iterate over all internal nodes to find min(ans, md1[i]+(aj.second/2)+md2[aj.first]);
+
+### 13. Flight Routes
+
+- 2 priority queue. One for Dijkstra and one priority queue for each node storing the best k distance to 1. Push to the pq if cur size is smaller than k or cur dist is smaller then pq[cur].top()
