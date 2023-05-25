@@ -210,3 +210,7 @@ Backtrack
 ### 15. Course schedule
 
 - Topological sort. DFS version, push all children in the ans vector b4 the parent. Check if cycle exist with a status array(use unvisited, visiting, visited).
+
+### 17. Game routes
+
+- Topological sort + DP. First Topological sort, so that for current node all its previous nodes are visited. Then run DP, dp[cur] = sum(dp[prev])
