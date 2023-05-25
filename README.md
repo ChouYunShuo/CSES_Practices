@@ -206,3 +206,7 @@ Backtrack
 ### 13. Flight Routes
 
 - 2 priority queue. One for Dijkstra and one priority queue for each node storing the best k distance to 1. Push to the pq if cur size is smaller than k or cur dist is smaller then pq[cur].top()
+
+### 15. Course schedule
+
+- Topological sort. DFS version, push all children in the ans vector b4 the parent. Check if cycle exist with a status array(use unvisited, visiting, visited).
