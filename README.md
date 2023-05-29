@@ -214,3 +214,7 @@ Backtrack
 ### 17. Game routes
 
 - Topological sort + DP. First Topological sort, so that for current node all its previous nodes are visited. Then run DP, dp[cur] = sum(dp[prev])
+
+### 19. Planets Queries I
+
+- Successor paths. Preprocess a table to store succ(x,k)=succ(succ(x/2,k/2),k/2), where k is power of 2. Then can use binary lifting to check if bit is 1. This is because k=11 -> 8+2+1. Can recursively find the successor.  
