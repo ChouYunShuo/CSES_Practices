@@ -218,3 +218,7 @@ Backtrack
 ### 19. Planets Queries I
 
 - Successor paths. Preprocess a table to store succ(x,k)=succ(succ(x/2,k/2),k/2), where k is power of 2. Then can use binary lifting to check if bit is 1. This is because k=11 -> 8+2+1. Can recursively find the successor.  
+
+### 21. Planets cycle
+
+- dfs detect cycle and maintain a queue and a counter to count steps.  
