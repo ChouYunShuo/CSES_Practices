@@ -222,3 +222,7 @@ Backtrack
 ### 21. Planets cycle
 
 - dfs detect cycle and maintain a queue and a counter to count steps.  
+
+### 23. Road Construction
+
+- union find. c++ map sort by key!! Maintaining a maximum and current components is sufficient!
