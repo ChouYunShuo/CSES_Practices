@@ -226,3 +226,7 @@ Backtrack
 ### 23. Road Construction
 
 - union find. c++ map sort by key!! Maintaining a maximum and current components is sufficient!
+
+### 25. Planet and Kingdoms
+
+- strongly connected components. Two dfs, the first time find the topological order. The second assigns nodes with component on the edge reversed graph. 
